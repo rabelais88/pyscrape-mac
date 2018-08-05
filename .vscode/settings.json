@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "${workspaceFolder}/bin/python3",
+  "python.linting.pylintPath":"${workspaceFolder}/bin/pylint",
+  "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501,E111,E114" 
+    ],
+    "python.linting.enabled": true
+  }

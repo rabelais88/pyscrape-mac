@@ -6,6 +6,10 @@ from settings import target_url
 from python_crawler_5 import scrape_detail_page
 from python_crawler_4 import scrape_list_page
 
+"""
+this module updates the data for each second
+"""
+
 def main():
   session = requests.Session()
   res = session.get(target_url)

@@ -21,3 +21,4 @@ brew install mongodb
 // to start mongodb daemon
 mongod
 ```
+TIP: on Mac environments, VScode prohibits using two linters at the same time. just stick with one linter if the linter is not working. (command palette -> `Python:Select linter` and disable anything not necessary)
